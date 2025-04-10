@@ -1,4 +1,5 @@
-import Image from 'next/image';
+import Image from 'next/image'
+import TallyForm from '../TallyForm'
 
 export default function Home() {
   return (
@@ -10,12 +11,16 @@ export default function Home() {
         height={150}
         className="mb-6"
       />
+
       <h1 className="text-4xl font-bold mb-2 text-center">
         Bem-vindo ao Partiu Roteiro!
       </h1>
-      <p className="text-lg text-gray-600 text-center max-w-md">
+
+      <p className="text-lg text-gray-600 text-center max-w-md mb-8">
         Crie roteiros personalizados de forma fácil e divertida. 🚀
       </p>
+
+      <TallyForm />
     </main>
-  );
+  )
 }

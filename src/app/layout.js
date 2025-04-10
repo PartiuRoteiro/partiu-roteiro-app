@@ -15,7 +15,7 @@ export const metadata = {
   title: 'Partiu Roteiro!',
   description: 'Seu app de roteiros personalizados com inteligência!',
   icons: {
-    icon: '/favicon.ico', // ou .png, .svg dependendo do que você usou
+    icon: '/favicon1.ico', // ou .png, .svg dependendo do que você usou
   },
 };
 

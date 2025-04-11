@@ -3,7 +3,7 @@ import TallyForm from '../TallyForm'
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen bg-white text-gray-900 p-6">
+    <main className="flex flex-col items-center justify-center min-h-screen bg-white text-orange-500 p-6">
       <Image
         src="/logo.png"
         alt="Logo Partiu Roteiro"
@@ -16,7 +16,7 @@ export default function Home() {
         Bem-vindo ao Partiu Roteiro!
       </h1>
 
-      <p className="text-lg text-gray-600 text-center max-w-md mb-8">
+      <p className="text-lg text-blue-400 text-center max-w-md mb-8">
         Crie roteiros personalizados de forma fácil e divertida. 🚀
       </p>
 
